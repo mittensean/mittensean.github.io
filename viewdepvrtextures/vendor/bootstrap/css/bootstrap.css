@@ -448,8 +448,8 @@ mark,
   list-style: none;
   justify-content: space-between;
   width: 100%;
-  display: flex;
   align-items: stretch;
+  display: inline-block;
 }
 
 .list-inline-item {
