@@ -4167,8 +4167,8 @@ input[type="button"].btn-block {
 *[id]:before { 
   display: block; 
   content: " "; 
-  margin-top: -75px; 
-  height: 75px; 
+  margin-top: -200px; 
+  height: 200px; 
   visibility: hidden; 
 }
 
