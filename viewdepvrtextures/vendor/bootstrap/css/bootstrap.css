@@ -550,6 +550,11 @@ pre code {
 }
 
 .container {
+  h4:before {
+    height: 54px;
+    content: "";
+    display:block;
+  }
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -4091,13 +4096,6 @@ input[type="button"].btn-block {
   border: 1px solid transparent;
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
-}
-
-:target::before {
-  content: "";
-  display: block;
-  height: 60px; /* fixed header height*/
-  margin: -60px 0 0; /* negative fixed header height */
 }
 
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
