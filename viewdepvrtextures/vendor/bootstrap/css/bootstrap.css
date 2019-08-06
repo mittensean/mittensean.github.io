@@ -4152,7 +4152,7 @@ input[type="button"].btn-block {
   position: fixed !important;
   top: 0;
   width: 100%;
-  z-index: 500;
+  z-index: 1000;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
