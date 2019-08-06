@@ -446,7 +446,7 @@ mark,
 .list-inline {
   padding-left: 0;
   list-style: none;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 100%;
   align-items: stretch;
   display: inline-block;
