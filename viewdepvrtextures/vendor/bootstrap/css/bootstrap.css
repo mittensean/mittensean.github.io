@@ -452,6 +452,7 @@ mark,
 }
 
 .list-inline-item {
+  width: 25%;
   display: inline-block;
 }
 
