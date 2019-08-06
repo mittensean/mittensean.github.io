@@ -444,11 +444,10 @@ mark,
 }
 
 .list-inline {
+  width: 100%;
   padding-left: 0;
   list-style: none;
   justify-content: space-evenly;
-  width: 100%;
-  align-items: stretch;
   display: inline-block;
 }
 
