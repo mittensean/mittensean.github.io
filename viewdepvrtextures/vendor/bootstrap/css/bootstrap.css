@@ -550,10 +550,9 @@ pre code {
 }
 
 .container {
-  h4:before {
+  .h4:before {
     height: 54px;
     content: "";
-    display:block;
   }
   width: 100%;
   padding-right: 15px;
