@@ -451,7 +451,7 @@ mark,
 }
 
 .list-inline-item {
-  display: inline-block;
+  display: flex;
   overflow-wrap:break-word
 }
 
