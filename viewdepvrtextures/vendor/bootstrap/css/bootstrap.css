@@ -4194,7 +4194,6 @@ input[type="button"].btn-block {
   line-height: 70px;
   padding: 0px;
   overflow: wrap;
-  max-width: 50px;
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
