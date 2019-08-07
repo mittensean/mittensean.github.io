@@ -452,7 +452,7 @@ mark,
 }
 
 .list-inline-item {
-  width: 25%;
+  max-width: 25%;
   display: inline-block;
 }
 
