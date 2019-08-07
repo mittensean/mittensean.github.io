@@ -4192,7 +4192,6 @@ input[type="button"].btn-block {
   font-size: 1.25rem;
   white-space: nowrap;
   word-wrap: break-word;
-  flex-wrap: row wrap;
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
