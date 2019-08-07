@@ -4175,7 +4175,8 @@ input[type="button"].btn-block {
 .navbar > .container,
 .navbar > .container-fluid {
   display: -ms-flexbox;
-  display: flex;
+  display: inline-block;
+  word-wrap: break-word;
   -ms-flex-wrap: wrap;
   flex-wrap: row wrap;
   -ms-flex-align: center;
