@@ -4177,7 +4177,7 @@ input[type="button"].btn-block {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  flex-wrap: row wrap;
   -ms-flex-align: center;
   align-items: center;
   -ms-flex-pack: justify;
@@ -4192,8 +4192,6 @@ input[type="button"].btn-block {
   font-size: 1.25rem;
   white-space: nowrap;
   line-height: 70px;
-  padding: 0px;
-  overflow: wrap;
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
