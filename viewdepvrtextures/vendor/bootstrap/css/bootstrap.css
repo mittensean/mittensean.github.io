@@ -453,7 +453,6 @@ mark,
 
 .list-inline-item {
   max-width: 25%;
-  display: inline-block;
 }
 
 .list-inline-item:not(:last-child) {
