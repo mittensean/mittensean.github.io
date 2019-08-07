@@ -4175,8 +4175,6 @@ input[type="button"].btn-block {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  display: inline-block;
-  overflow-wrap:break-word;
 }
 
 .navbar-brand {
