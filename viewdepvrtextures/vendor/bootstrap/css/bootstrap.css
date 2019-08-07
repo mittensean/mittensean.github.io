@@ -4193,6 +4193,7 @@ input[type="button"].btn-block {
   white-space: nowrap;
   line-height: 70px;
   padding: 0px;
+  overflow: wrap;
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
