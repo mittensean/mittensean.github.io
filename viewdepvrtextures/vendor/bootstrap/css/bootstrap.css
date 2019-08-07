@@ -4165,14 +4165,6 @@ input[type="button"].btn-block {
   padding: 0.5rem 1rem;
 }
 
-*[id]:before { 
-  display: block; 
-  content: " "; 
-  margin-top: -500px; 
-  height: 500px; 
-  visibility: hidden; 
-}
-
 .navbar > .container,
 .navbar > .container-fluid {
   display: -ms-flexbox;
