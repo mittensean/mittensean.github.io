@@ -4175,8 +4175,7 @@ input[type="button"].btn-block {
 .navbar > .container,
 .navbar > .container-fluid {
   display: -ms-flexbox;
-  display: inline-block;
-  word-wrap: break-word;
+  display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: row wrap;
   -ms-flex-align: center;
@@ -4193,6 +4192,7 @@ input[type="button"].btn-block {
   font-size: 1.25rem;
   white-space: nowrap;
   word-wrap: break-word;
+  flex-wrap: row wrap;
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
