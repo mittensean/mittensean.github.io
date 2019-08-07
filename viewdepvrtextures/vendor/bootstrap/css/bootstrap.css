@@ -444,7 +444,8 @@ mark,
 }
 
 .list-inline {
-  display: flex;
+  display: inline-block;
+  overflow-wrap:break-word;
   padding-left: 0;
   list-style: none;
   justify-content: space-evenly;
