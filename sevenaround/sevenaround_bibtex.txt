@@ -1,0 +1,14 @@
+@inproceedings{bridges2015:391,
+  author      = {Sean Jeng Liu, Young Kim, Raymond Shiau and Carlo H. S\'equin},
+  title       = {Large, Symmetric, ``7-Around'' Hyperbolic Disks},
+  pages       = {391--394},
+  booktitle   = {Proceedings of Bridges 2015: Mathematics, Music, Art, Architecture, Culture},
+  year        = {2015},
+  editor      = {Kelly Delp, Craig S. Kaplan, Douglas McKenna and Reza Sarhangi},
+  isbn        = {978-1-938664-15-1},
+  issn        = {1099-6702},
+  publisher   = {Tessellations Publishing},
+  address     = {Phoenix, Arizona},
+
+  note        = {Available online at \url{http://archive.bridgesmathart.org/2015/bridges2015-391.html}}
+}
