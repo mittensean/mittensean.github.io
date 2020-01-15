@@ -14,8 +14,9 @@
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <style type="text/css">
     body { background: #F0F8FB !important;
-      font-family: Gill Sans, sans-serif;
+      font-family: Gill Sans, sans-serif !important;
       color: #000066 !important;
+      font-size: 16px;
     } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
   /* Calibri,Candara,Segoe,"Segoe UI",Optima,Arial,sans-serif !important; */
   </style>
@@ -71,11 +72,11 @@
     <hr class="col-xs-12">
     <div class="container">
       <div class="row">
-        <div class="col-3 text-left">
+        <div class="col-2 text-left">
           <h4 class="mt-3">About Me</h4>
         </div>
-        <div class="col-9 text-left">
-          <p class="lead mt-3">I am a Ph.D. student in computer science at Stanford University, advised by Professor <a href="http://graphics.stanford.edu/~maneesh/" style="color:mediumpurple;" target="_blank">Maneesh Agrawala</a>.
+        <div class="col-10 text-left">
+          <p class="mt-3" style="font-size:18px" >I am a Ph.D. student in computer science at Stanford University, advised by Professor <a href="http://graphics.stanford.edu/~maneesh/" style="color:mediumpurple;" target="_blank">Maneesh Agrawala</a>.
               My research interest lies at the intersection of computer graphics and HCI.
               In 2015, I received a B.Sc. in Electrical Engineering and Computer Sciences from UC Berkeley.
               At UC Berkeley, I did research in geometric modeling with Professor <a href="https://people.eecs.berkeley.edu/~sequin/" style="color:mediumpurple;" target="_blank">Carlo H. Séquin</a>.
@@ -87,14 +88,52 @@
     <hr class="col-xs-12">
     <div class="container">
       <div class="row">
-        <div class="col-3 text-left">
+        <div class="col-2 text-left">
           <h4 class="mt-3">Publications</h4>
         </div>
-        <div class="col-9 text-left">
-          <p class="lead mt-3">Please check back later!</p>
+<!--        <div class="col-9 text-left">-->
+<!--          <p class="lead mt-3">Please check back later!</p>-->
+<!--        </div>-->
+
+          <!-- <div class='col-lg-3 col-md-4 col-xs-4 pull-left' style="padding-right:10px">  --> <!-- thumbnails responsive version -->
+          <div class='col-3 mt-3'> <!-- thumbnails fixed size not responsive version  -->
+          
+            <img class='img-fluid' src=images/vdvt_thumbnail.jpg>
+          </div>
+<!--          </div>-->
+          <div class="col-7 mt-3 mb-3">
+          <!-- <div class='papertext col-lg-9 col-md-8 col-xs-8 pull-left' style="padding-left:0px"> --> <!-- thumbnails responsive version -->
+            <div class='pull-left'>  <!-- thumbnails fixed size not responsive version -->
+             <B> <a href=https://lseancs.github.io/viewdepvrtextures/>View-Dependent Video Textures for 360° Video</a> </B><BR>
+             <a href=https://lseancs.github.io/> <nobr>Sean J. Liu</nobr></a>, <a href=http://graphics.stanford.edu/~maneesh> <nobr>Maneesh Agrawala</nobr></a>, <a href=http://www.stephendiverdi.com/> <nobr>Stephen DiVerdi</nobr></a> and <a href=http://www.dgp.toronto.edu/~hertzman/> <nobr>Aaron Hertzmann</nobr></a> <BR>
+             <em>User Interface Software and Technology (UIST),  </em> Oct 2019. <nobr>pp. 249-262.</nobr> <BR>
+             <a href=https://dl.acm.org/doi/10.1145/3332165.3347887>PDF</a> | <a href=https://lseancs.github.io/viewdepvrtextures/View_Dependent_Video_Textures-lowres.pdf>Low-Res PDF</a> | <a href=https://drive.google.com/open?id=1GkaaQ_rZHQMxCy785rmO3SH71bnDzJac>Supplemental Results ZIP</a> | <a href=https://drive.google.com/open?id=1lkC21fLof54H-uTSUS-iRFAyEhCVe94j>Gate Examples Metadata</a> | <a href=https://github.com/lseancs/viewdepvideotextures>Source Code</a> | <a
+                 href=https://lseancs.github.io/viewdepvrtextures/#bibtex> BibTeX </a> <BR>
+             </div>
+          </div>
         </div>
+      
+        <!-- Add more publications here -->
+        
+<!--              <div class="row">-->
+<!--                <div class="col-2">-->
+<!--                </div>-->
+<!--                  <div class='col-3 mt-3'>-->
+<!--                  -->
+<!--                    <img class='img-fluid' src=images/vdvt_thumbnail.jpg>-->
+<!--                  </div>-->
+<!--                  <div class="col-7 mt-3 mb-3">-->
+<!--                    <div class='pull-left'>-->
+<!--                     <B> <a href=https://lseancs.github.io/viewdepvrtextures/>View-Dependent Video Textures for 360° Video</a> </B><BR>-->
+<!--                     <a href=https://lseancs.github.io/> <nobr>Sean J. Liu</nobr></a>, <a href=http://graphics.stanford.edu/~maneesh> <nobr>Maneesh Agrawala</nobr></a>, <a href=http://www.stephendiverdi.com/> <nobr>Stephen DiVerdi</nobr></a> and <a href=http://www.dgp.toronto.edu/~hertzman/> <nobr>Aaron Hertzmann</nobr></a> <BR>-->
+<!--                     <em>User Interface Software and Technology (UIST),  </em> Oct 2019. <nobr>pp. 249-262.</nobr> <BR>-->
+<!--                     <a href=https://dl.acm.org/doi/10.1145/3332165.3347887>PDF</a> | <a href=https://lseancs.github.io/viewdepvrtextures/View_Dependent_Video_Textures-lowres.pdf>Low-Res PDF</a> | <a href=https://drive.google.com/open?id=1GkaaQ_rZHQMxCy785rmO3SH71bnDzJac>Supplemental Results ZIP</a> | <a href=https://drive.google.com/open?id=1lkC21fLof54H-uTSUS-iRFAyEhCVe94j>Gate Examples Metadata</a> | <a href=https://github.com/lseancs/viewdepvideotextures>Source Code</a> | <a-->
+<!--                         href=https://lseancs.github.io/viewdepvrtextures/#bibtex> BibTeX </a> <BR>-->
+<!--                     </div>-->
+<!--                  </div>-->
+<!--                </div>-->
+      
       </div>
-    </div>
     </div>
   </div>
 
