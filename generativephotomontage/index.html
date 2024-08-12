@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html class=" w-mod-ix"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><style>.wf-force-outline-none[tabindex="-1"]:focus{outline:none;}</style>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WNGS4SZ3C7"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-WNGS4SZ3C7');
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Generative Photomontage</title>
+    <link rel="stylesheet" href="images/bootstrap.min.css">
+    <link href="images/css.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="images/Highlight-Clean.css">
+    <link rel="stylesheet" href="images/styles.css">
+
+    <link rel="manifest" href="images/site.webmanifest">
+
+    <meta property="og:site_name" content="Generative Photomontage">
+    <meta property="og:type" content="video.other">
+    <meta property="og:title" content="Generative Photomontage">
+    <meta property="og:description" content="Generative Photomontage, 2024.">
+    <meta property="og:url" content="http://3.142.224.184:4000/">
+
+    <meta name="description" content="Generative Photomotnage.">
+    <meta property="og:url" content="http://3.142.224.184:4000/images/thumbnail.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Generative Photomontage">
+    <meta property="og:description" content="Generative Photomontage, 2024.">
+    <meta property="og:image" content="http://3.142.224.184:4000/images/thumbnail.jpg">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="cs.cmu.edu">
+    <meta property="twitter:url" content="http://3.142.224.184:4000">
+    <meta name="twitter:title" content="Generative Photomontage">
+    <meta name="twitter:description" content="Generative Photomontage, 2024.">
+    <meta name="twitter:image" content="http://3.142.224.184:4000/images/thumbnail.jpg">
+
+
+    <script src="images/video_comparison.js"></script>
+    <script type="module" src="images/model-viewer.min.js"></script>
+
+  
+</head>
+
+<body>
+
+    
+    <div class="highlight-clean" style="padding-bottom: 20px;">
+        <div class="container" style="padding-bottom: 10px; max-width: 1000px;">
+            <h1 class="text-center">Generative Photomontage</h1>
+        </div>
+        <div class="container" style="max-width: 900px;">
+            <div class="row authors" style="padding-bottom: 5px; padding-top: 10px;">
+                <div class="col-sm">
+                    <h4 class="text-center"><a class="text-center" href="https://lseancs.github.io">Sean J. Liu</a><sup>1</sup></h4>
+                </div>
+                <div class="col-sm">
+                    <h4 class="text-center"><a class="text-center" href="https://nupurkmr9.github.io">Nupur Kumari</a><sup>1</sup></h4>
+                </div>
+                <div class="col-sm">
+                    <h4 class="text-center"><a href="https://faculty.runi.ac.il/arik/">Ariel Shamir</a><sup>2</sup></h4>
+                </div>
+                <div class="col-sm">
+                    <h4 class="text-center"><a class="text-center" href="https://www.cs.cmu.edu/~junyanz/">Jun-Yan Zhu</a><sup>1</sup></h4>
+                </div>
+            </div>    
+            <div class="row authors institute">
+                <div class="col-sm-12">
+                    <h5 class="text-center"><sup>1</sup> Carnegie Mellon University &nbsp&nbsp <sup>2</sup>Reichman University &nbsp&nbsp </h3>
+                </div>
+            </div>   
+        </div>
+        <div class="buttons" style="margin-bottom: 8px; margin-top: 8px;">
+            <a class="btn btn-light" role="button" href="">
+                <svg style="width:24px;height:24px;margin-left:-12px;margin-right:12px" width="24px" height="24px" viewBox="0 0 375 531"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path>
+                </svg>
+                Code
+            </a>
+            <a class="btn btn-light" role="button" href="">
+                <svg style="width:24px;height:24px;margin-left:-12px;margin-right:12px" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M16 0H8C6.9 0 6 .9 6 2V18C6 19.1 6.9 20 8 20H20C21.1 20 22 19.1 22 18V6L16 0M20 18H8V2H15V7H20V18M4 4V22H20V24H4C2.9 24 2 23.1 2 22V4H4M10 10V12H18V10H10M10 14V16H15V14H10Z"></path>
+                </svg>Paper
+            </a>
+        </div>
+    </div>
+
+    <div class="container" style="max-width: 1300px;">
+        <div class="row teaser">
+            <div class="col-md-12">
+                <!-- Large format devices -->
+                <img src="images/teaser.jpg" style="width: 100%;"/>
+                <br/>
+                <br/>
+                <p >
+                    We introduce <strong>Generative Photomontage</strong>, 
+                    a framework which allows users to create their desired image by 
+                    <em>compositing</em> multiple generated images.
+                    Our framework is flexible and can be used for various applications, 
+                    such as generating unseen appearance combinations (a, c), correcting shapes and removing artifacts (b, d).
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <hr style="max-width: 1400px;">
+    <div class="container" style="max-width: 1400px;">
+        <div class="row">
+            <div class="col-md-12" style="font-size:19px">
+                <h2>Abstract</h2>
+               
+                Text-to-image models are powerful tools for image creation. 
+                However, the generation process is akin to a dice roll and makes it difficult to achieve a <b>single</b> image 
+                that captures everything a user wants. 
+                In this paper, we propose a framework for creating the desired image 
+                by <b>compositing</b> it from various parts of generated images, in essence forming a <strong>Generative Photomontage</strong>. 
+                
+                <!-- <br/>
+                <br/> -->
+                Given a stack of images generated by ControlNet using the same input condition and different seeds, 
+                we let users select desired parts from the generated results using a brush stroke interface. 
+                We introduce a novel technique that takes in the user's brush strokes, 
+                segments the generated images
+                using a graph-based optimization in diffusion feature space, 
+                and then composites the segmented regions via a new feature-space blending method. 
+
+                Our method faithfully preserves the user-selected regions while compositing them harmoniously. 
+                We demonstrate that our flexible framework can be used for many applications, 
+                including <strong>generating new appearance combinations</strong>, <strong>fixing incorrect shapes and artifacts</strong>, 
+                and <strong>improving prompt alignment</strong>. 
+                We show compelling results for each application and demonstrate that our method outperforms existing image blending methods 
+                and various baselines.
+            
+
+                                
+            </div>
+        </div>
+    </div>
+
+    <hr style="max-width: 1400px;">
+    <div class="container" style="max-width: 1400px;">
+        <div class="row">
+            <div class="col-md-12", style="font-size: 18px;">
+                <h2>Problem</h2>
+
+                
+                Text-to-image models are powerful tools for image creation. 
+                However, these models may not achieve exactly what a user envisions.
+                For example, the prompt "a robot from the future" can map to any sample in a large space of robot images. 
+                From the user's perspective, this process is akin to a dice roll.
+                In particular, it is often challenging to achieve a <em>single</em> image that includes everything the user wants: 
+                the user may like the robot from one generated result and the background in a different result. 
+                They may also like certain parts of the robot (e.g., the arm) in another result.
+                
+            </div>
+        </div>
+    </div>
+
+    <hr style="max-width: 1400px;">
+    <div class="container" style="max-width: 1400px;">
+        <div class="row">
+            <div class="col-md-12", style="font-size: 18px;">
+                
+                <h2>Key Idea</h2>
+
+                In this paper, we propose a different approach -- we suggest the possibility of 
+                synthesizing the desired image by <em>compositing</em>  it from different parts of generated images.
+                In our approach, users can first generate many results (roll the dice first) and then choose exactly what they want (composite across the dice rolls).
+                Our key idea is to treat generated images as intermediate outputs, let users select desired parts from the generated results, 
+                and then composite the user-selected regions to form the final image. 
+
+                This approach allows users to take advantage of the model's generative capabilities 
+                while retaining fine-grained control over the final result. 
+                
+            </div>
+        </div>
+    </div>
+
+    <hr style="max-width: 1400px;">
+    <div class="container" style="max-width: 1400px;">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Method</h2>
+                <p>
+                    Our method takes in a stack of generated images and produces a final image based on sparse user strokes. 
+                    (a) In our image stack, images are generated normally through ControlNet, using one or more prompts. 
+                    The generated images share common spatial structures, as they are produced using the same input condition 
+                    (e.g., edge maps or depth maps).
+
+                    (b) Upon browsing the image stack, the user selects desired objects and regions via broad brush strokes on the images. 
+                    In the example below, the user wishes to remove the rock at the Apple bite in the first image and add the red leaf from the third image. 
+                    To do so, the user draws strokes on the base rock in the first image, the patch of grass in the second image, and the red leaf in the third image. 
+                    Our system takes the user input and performs a multi-label graph cut optimization in self-attention feature space (K features)
+                    to find a segmentation of image regions across the stack that minimizes seams. 
+                    (c) The graph-cut result is then used to form composite Q, K, V features, which are then injected into the self-attention layers. 
+                    The final image is a harmonious composite of the user-selected regions.
+                </p>
+                <p></p><p></p>
+                <br/>
+                <br/>
+                <img src="images/method.jpg" style="width: 100%;"/>
+                <p></p><p></p>
+
+            </div>
+        </div>
+    </div>
+
+
+    <hr style="max-width: 1400px;">
+    <div class="container" style="max-width: 1400px;">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Results </h2>
+                <p> 
+                    By supporting the ability to combine generated images, 
+                    Generative Photomontage allows users to achieve a wider range of results. 
+                    Our method can be applied to a variety of use cases. 
+                    Here, we highlight some use cases and show compelling results for each application.
+                </p>
+
+                <br/>
+
+                <h4>Appearance Mixing </h4>
+                    Here, we show applications in creative and artistic design, where users refine images based on subjective preference. 
+                    This is useful in cases where the user may not realize what they want until they see it (e.g., creative exploration).
+
+                <br/>
+                <br/>
+                <div class="containershadow" style="max-width: 1400px;">
+
+                    <div style="text-align: center;">
+                        <img src="images/appearance.jpg" style="width: 80%;"/>
+                    </div>
+                </div>
+
+                <br/>
+                
+                <h4>Shape and Artifacts Correction </h4>
+                While users can provide a sketch to guide ControlNet's output, ControlNet may fail to adhere to the user's input condition, 
+                especially when asked to generate objects with uncommon shapes. 
+                In such cases, our method can be used to "correct" object shapes and scene layouts, 
+                given a replaceable image patch within the stack. 
+
+                <br/>
+                <br/>
+                <div class="containershadow" style="max-width: 1400px;">
+
+                    <div style="text-align: center;">
+                        <img src="images/shape.jpg" style="width: 80%;"/>
+                    </div>
+                </div>
+
+                <br/>
+                
+                <h4>Prompt Alignment </h4>
+                In addition, Generative Photomontage can be used to increase prompt alignment in cases 
+                where the generated output does not accurately follow the input prompt. 
+                For example, it is difficult for ControlNet to follow all aspects of long complicated prompts (a). 
+                Using our method, users can create the desired image by breaking it up into simpler prompts 
+                and selectively combining the outputs (b).
+
+                <br/>
+                <br/>
+                <div class="containershadow" style="overflow-y:scroll; max-width: 1400px;max-height: 1000px;">
+
+                    <div style="text-align: center;">
+                        <img src="images/prompt1.jpg" style="width: 80%;"/>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <hr style="max-width: 1400px;">
+    <div class="container" style="max-width: 1400px;">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Qualitative Comparison with Related Works </h2>
+                <p> 
+                </p>
+                <p></p><p></p>
+                <p>Below, we show qualitative comparisons between our method and related works. 
+                    In Interactive Digital Photomontage [Agarwala et al. 2004], pixel-space graph-cut may cause seams to fall on undesired edges, 
+                    and their gradient-domain blending in general does not preserve color, e.g., the bird's yellow beak is not preserved in (f). 
+                    Blended latent diffusion [Avrahami et al. 2023] and MasaCtrl+ControlNet [Cao et al. 2023] may also lead to color changes (c, f) and structural changes (a, b, d, e).
+                </p> 
+                <br/>
+
+                <div id="comparison" class="containershadow" style="overflow-y:scroll; max-width: 1400px;max-height: 800px;">
+
+                    <div style="text-align: center;">
+                        <img src="images/qualitative.jpg" style="width: 70%;"/>
+                    </div>
+            
+                </div>
+                <p></p><p></p>
+
+            </div>
+        </div>
+    </div>
+
+
+    <hr style="max-width: 1400px;">
+    <div class="container" style="max-width: 1400px;">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Limitations </h2>
+                <p> 
+                </p>
+                <p></p><p></p>
+                <div id="limitation" class="containershadow" style=" max-width: 1400px;">
+        
+                    <p> Our method assumes some spatial consistency among images in the stack. 
+                        In cases where the images differ significantly in scene structure, our method may produce semantically incorrect outputs. 
+                        (a) Two images have different horizons in the background. 
+                        Naively combining two halves of the images leads to an inconsistent horizon (bottom left, circled red). 
+                        Users can manually designate a consistent horizon by selecting the background of the second image (bottom, middle). 
+                        (b) Alternatively, users can add a horizon in the input sketch to ControlNet to make it consistent across both images.
+                    </p> 
+
+
+                    <center> <img  src="images/limitations1.jpg" style="width: 80%; margin-left: auto; margin-right: auto;" /> </center>
+                                       <br/>
+                    <br/>
+                    <p>
+                        Second, our current graph cut parameters are empirically chosen to encourage congruous regions, which penalizes seam circumference. 
+                        While this works well for many cases, if the target object has a curvy outline, 
+                        it may require additional user strokes to obtain a finer boundary (see example below). 
+                        Since graph cut solves in near real-time (~1s), users can quickly check the graph-cut result 
+                        by visualizing it in image space and iterate as needed.
+                    </p>
+
+                    <center> <img  src="images/limitations2.jpg" style="width: 40%; margin-left: auto; margin-right: auto;" /> </center>
+                </div>     
+                <p></p><p></p>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <hr style="max-width: 1400px;">
+    <div class="container" style="max-width: 1400px;">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>BibTex</h2>
+                <code>
+                    @misc{generativephotomontage,<br>
+                    &nbsp; author = {Sean J. Liu and Nupur Kumari and Ariel Shamir and Jun-Yan Zhu},<br>
+                    &nbsp; title  = {Generative Photomontage},<br>
+                    &nbsp; archivePrefix = {arXiv},<br>
+                    &nbsp; year   = {2024},<br>
+                    &nbsp; primaryClass = {cs.CV},<br>
+                }</code>
+            </div>
+        </div>
+    </div>
+
+    <hr style="max-width: 1400px;">
+    <div class="container" style="max-width: 1400px;">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Related & Concurrent Works</h2>
+                <h5>
+                <ul>
+                    <li>Agarwala, Aseem, et al. "Interactive digital photomontage." ACM SIGGRAPH 2004 Papers. 2004. 294-302.</li><br>
+                    
+                    <li>Avrahami, Omri, Ohad Fried, and Dani Lischinski. "Blended latent diffusion." ACM transactions on graphics (TOG) 42.4 (2023): 1-11.</li><br>
+                    
+                    <li>Cao, Mingdeng, et al. "Masactrl: Tuning-free mutual self-attention control for consistent image synthesis and editing." Proceedings of the IEEE/CVF International Conference on Computer Vision. 2023</li><br>
+                                                        
+                    <li>Alaluf, Yuval, et al. "Cross-image attention for zero-shot appearance transfer." ACM SIGGRAPH 2024 Conference Papers. 2024.</li> <br/>
+
+                    <li>Hertz, Amir, et al. "Style aligned image generation via shared attention." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2024.</li>
+                </ul> 
+            </h5>               
+            </div>
+        </div>
+    </div>
+
+
+    <hr style="max-width: 1400px;">
+    <div class="container" style="max-width: 1400px;">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Acknowledgements</h2>
+                <p> We are grateful to Kangle Deng for his help with setting up the user survey. 
+                    We also thank Maxwell Jones, Gaurav Parmar, and Sheng-Yu Wang for helpful comments and suggestions and Or Patashnik for initial discussions. 
+                    This project is partly supported by the Amazon Faculty Research Award, DARPA ECOLE, the Packard Fellowship, 
+                    and  a joint NSFC-ISF Research Grant no. 3077/23.
+                    The website template is taken from <a href="https://www.cs.cmu.edu/~custom-diffusion/">CustomDiffusion</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="images/polyfill.js"></script>
+    <script src="images/yall.js"></script>
+    <script>
+        yall(
+            {
+                observeChanges: true
+            }
+        );
+    </script>
+    <script src="images/scripts.js"></script>
+    <script src="images/jquery.min.js"></script>
+    <script src="images/bootstrap.bundle.min.js"></script>
+    <script src="images/webflow.fd002feec.js"></script>
+
+
+</body></html>
